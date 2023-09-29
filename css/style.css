@@ -3,14 +3,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+h1,
+h2,
+ul,
+p {
   margin: 0px;
+}
+
+ul {
   padding: 0px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header-bg {
@@ -84,4 +96,70 @@ a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.introducao-bg {
+  background-image: url("../img/fotos/img-introdução.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vw;
+  color: #ffffff;
+}
+
+.introducao {
+  padding-top: 120px;
+  padding-left: 220px;
+}
+
+.introducao-conteudo span {
+  color: #f7f7f7;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.introducao-conteudo h1 {
+  color: #25cbff;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.introducao-conteudo h2 {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1.125;
+  margin-bottom: 12px;
+}
+
+.introducao-conteudo h3 {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 1.333;
+  margin-bottom: 20px;
+}
+
+.introducao-conteudo p {
+  color: #cccccc;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.introducao a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#25cbff, #29abcc);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #0a1011;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.introducao a:hover {
+  background: linear-gradient(#00c2ff, #2b93ad);
 }
