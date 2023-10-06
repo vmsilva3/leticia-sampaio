@@ -2,7 +2,6 @@
   background-image: url("/img/fotos/img-introdução.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 100vw;
   height: 100vh;
   color: var(--cor-0);
 }
@@ -35,6 +34,9 @@
 }
 
 @media (max-width: 1200px) {
+  .introducao {
+    padding-top: 80px;
+  }
   .introducao h1 {
     margin-bottom: 18px;
   }
@@ -48,11 +50,13 @@
     margin-bottom: 16px;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
+    .introducao {
+      padding-top: 40px;
+    }
     .introducao h1 {
       margin-bottom: 16px;
     }
-
     .introducao-conteudo h2 {
       margin-bottom: 10px;
     }
@@ -62,5 +66,22 @@
     .font-2-p {
       margin-bottom: 16px;
     }
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao-bg {
+    background-image: url("/img/fotos/img-introdução1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+@media (max-width: 560px) {
+  .introducao-bg {
+    background: var(--cor-12);
+  }
+  .introducao-conteudo {
+    text-align: center;
   }
 }
