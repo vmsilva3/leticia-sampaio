@@ -3,21 +3,16 @@
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   color: var(--cor-0);
 }
 
 .introducao {
   padding-top: 120px;
-  padding-left: 220px;
 }
 
 .introducao-conteudo span {
   margin-bottom: 32px;
-  font-size: 20px;
-  line-height: 1.6;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .introducao-conteudo h1 {

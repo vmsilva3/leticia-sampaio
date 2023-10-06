@@ -15,7 +15,11 @@
 }
 
 .font-1-p1 {
-  font: 400 2rem/1.777 "Poppins", sans-serif;
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.font-1-p2 {
+  font: 400 1.25rem/1.6 "Poppins", sans-serif;
 }
 
 .font-2-p {
