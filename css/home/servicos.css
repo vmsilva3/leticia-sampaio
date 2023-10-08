@@ -1,0 +1,39 @@
+.titulo {
+  padding-top: 100px;
+}
+
+.servicos-bg {
+  background: var(--cor-11);
+}
+
+.servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.servicos-imagem img {
+  border-radius: 5px;
+}
+
+.servicos-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.servicos h2,
+.servicos p {
+  grid-column: 1/-1;
+}
+
+.servicos h2 {
+  margin-bottom: 20px;
+}
+
+.servicos a {
+  place-self: end;
+  margin-top: 80px;
+}

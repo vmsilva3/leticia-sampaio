@@ -11,7 +11,7 @@
   padding: 16px 32px;
   background: linear-gradient(#25cbff, #29abcc);
   border-radius: 10px;
-  box-shadow: 0 1px 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #0a1011;
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
