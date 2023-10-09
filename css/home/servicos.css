@@ -1,5 +1,6 @@
-.titulo {
-  padding-top: 100px;
+#servicos {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .servicos-bg {
@@ -39,6 +40,10 @@
 }
 
 @media (max-width: 800px) {
+  #servicos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .servicos-bg {
     background: var(--cor-11);
   }
