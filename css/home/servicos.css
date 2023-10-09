@@ -3,7 +3,7 @@
 }
 
 .servicos-bg {
-  background: var(--cor-11);
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0);
 }
 
 .servicos {
@@ -36,4 +36,32 @@
 .servicos a {
   place-self: end;
   margin-top: 80px;
+}
+
+@media (max-width: 800px) {
+  .servicos-bg {
+    background: var(--cor-11);
+  }
+  .servicos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .servicos a {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .servicos a {
+    place-self: start;
+    margin-top: 32px;
+  }
+  .servicos h2 {
+    font-size: 2rem;
+  }
+  .servicos p {
+    font-size: 1rem;
+  }
 }
