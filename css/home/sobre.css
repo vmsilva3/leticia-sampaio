@@ -1,6 +1,7 @@
 #sobre {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: var(--cor-1);
 }
 
 .sobre-mim {

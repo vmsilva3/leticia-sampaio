@@ -24,6 +24,10 @@
   text-transform: uppercase;
 }
 
+.font-1-p3 {
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+}
+
 .font-2-p {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
 }
@@ -38,6 +42,10 @@
 
 .font-2-p3 {
   font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.font-2-p4 {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 
 @media (max-width: 1200px) {

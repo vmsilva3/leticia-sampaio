@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   color: var(--cor-0);
+  /* display: block;*/
 }
 
 .introducao {
