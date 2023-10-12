@@ -12,4 +12,5 @@
 @import "./home/introducao.css";
 @import "./home/servicos.css";
 @import "./home/sobre.css";
-@import "./home/contato.css";
+@import "./home/contato/contato.css";
+@import "./home/contato/formulario.css";
