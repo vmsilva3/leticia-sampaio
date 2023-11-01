@@ -2,7 +2,7 @@
   background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
-.titulo {
+#contato .titulo {
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 800px) {
-  .titulo {
+  #contato .titulo {
     padding-top: 60px;
     padding-bottom: 40px;
   }
